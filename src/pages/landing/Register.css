@@ -4,7 +4,7 @@
 }
 
 .register-form-header {
- @include opacity-bg($Primary-color,0);
+  background-color: #82ccf2;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -14,5 +14,5 @@
   font-weight: bold;
   text-align: center;
   padding: 20px;
-  color: $bg-color2;
+  color: white;
 }

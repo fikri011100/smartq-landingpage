@@ -1,27 +1,3 @@
-<<<<<<< Updated upstream
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-=======
 import React from "react";
 import {
     BrowserRouter as Router,
@@ -29,7 +5,7 @@ import {
     Route
 } from "react-router-dom";
 
-import { ProvideAuth, PrivateRoute } from "./common/login"
+import { ProvideAuth } from "./common/login"
 
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
 // import './App.css';
@@ -46,30 +22,34 @@ import Setelan from './pages/vendor/Setelan';
 
 
 const App = () => {
-    return ( <
-        ProvideAuth >
-        <
-        Router >
-        <
-        Switch >
-        <
-        Route path = "/"
-        exact component = { Homepage }
-        /> <
-        Route path = "/login"
-        exact component = { Login }
-        /> <
-        Route path = "/register"
-        exact component = { Register }
-        /> <
-        PrivateRoute path = "/dashboard" >
-        <
-        Dashboard / >
-        <
-        /PrivateRoute> <
-        /Switch> <
-        /Router> <
-        /ProvideAuth>
+    return ( 
+        <ProvideAuth >
+            <Router >
+                <Switch >
+                    <Route path = "/"
+                        exact component = { Homepage }
+                    /> 
+                    <Route path = "/login"
+                        exact component = { Login }
+                    /> 
+                    <Route path = "/register"
+                        exact component = { Register }
+                    /> 
+                    <Route path = "/dashboard" >
+                        <Dashboard />
+                    </Route> 
+                    <Route path = "/antrian" >
+                        <Antrian />
+                    </Route>
+                     <Route path = "/pegawai" >
+                        <Pegawai />
+                    </Route>
+                     <Route path = "/setelan" >
+                        <Setelan />
+                    </Route>
+                </Switch> 
+            </Router> 
+        </ProvideAuth>
 
         // <Router>
         //   <Switch>
@@ -85,7 +65,8 @@ const App = () => {
         // </Router>
     );
 
->>>>>>> Stashed changes
 }
+
+
 
 export default App;

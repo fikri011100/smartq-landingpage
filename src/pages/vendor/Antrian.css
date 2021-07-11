@@ -1,0 +1,93 @@
+.grid-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-antrian {
+  margin: 12px 0px;
+}
+
+.card-antrian :hover {
+  background-color: #fafafa;
+}
+
+.user-photo {
+  border-radius: 50%;
+  width: 60px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.antrian-number {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 30px;
+  height: 30px;
+  background-color: #4266b0;
+  border-radius: 12%;
+  padding: auto;
+}
+
+.antrian-number p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.antrian-icon {
+  font-size: 24px;
+}
+
+.contact-icon {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 24px;
+  color: #49c958;
+  /* color: #6c757d; */
+}
+
+.card-no-mp {
+  margin: 0px;
+  padding: 0px;
+}
+
+#antrian-button-main {
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  position: absolute;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.antrian-modal-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 12px;
+}
+
+#antrian-modal-main-button {
+  height: 60px;
+  width: 200px;
+  margin: 20px;
+  font-size: 18px;
+}

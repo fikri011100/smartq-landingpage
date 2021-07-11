@@ -1,0 +1,92 @@
+.log-section {
+  margin: 120px 42px;
+}
+
+.log-container {
+  padding: 30px;
+}
+
+.login-primary {
+  background-color: #4266b0;
+}
+
+#login-card {
+  padding: 0;
+  margin: 0;
+}
+
+#login-left {
+  margin: 0;
+  padding: 0;
+}
+
+#login-right {
+  padding: 30px 60px;
+  margin: 0;
+}
+
+.login-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.login-headline {
+  font-weight: bold;
+}
+
+.lupa-password {
+  text-align: end;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.lupa-password a {
+  color: white;
+}
+
+.lupa-password a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-breaker {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.btn-log {
+  width: 100%;
+  height: 46px;
+  margin: 4px 0;
+}
+
+.btn-log:hover {
+  background-color: #fff !important;
+  color: #4266b0 !important;
+  border-color: white !important;
+}
+
+.log-primary {
+  background-color: #82ccf2 !important;
+}
+
+.log-secondary {
+  background-color: #71e249 !important;
+  color: #fff !important;
+  border-color: #71e249 !important;
+}
+
+@media (max-width: 1000px) {
+  .log-section {
+    margin: 120px 0 !important;
+  }
+  .log-container {
+    padding: 0;
+  }
+}
